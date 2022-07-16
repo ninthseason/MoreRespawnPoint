@@ -1,0 +1,13 @@
+name: MoreRespawnPoint
+version: '${version}'
+main: pers.ninthseason.morerespawnpoint.Main
+api-version: 1.18
+prefix: MoreRP
+authors: [ Kl1nge5 ]
+description: You can custom the range and the number of respawn points.
+commands:
+  RespawnPoint:
+    description: None
+    usage: /<command> <add|del|list> [<x1> <y1> <z1> <x2> <y2> <z2>|<index>|None]
+    permission: "morerespawnpoint.setpoint"
+    permission-message: "You do not have permission to run the command."
